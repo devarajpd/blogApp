@@ -5,7 +5,7 @@ A RESTful API built with Laravel 12 for managing blog posts, tags, and comments.
 ## 🚀 Features
 
 - User authentication (via Laravel Sanctum)
-- Create, read, update, delete (CRUD) for:
+- Create, read, update, delete for:
   - Posts
   - Comments
   - Tags
@@ -31,3 +31,7 @@ cp .env.example .env
 php artisan key:generate
 php artisan migrate
 php artisan db:seed # Optional
+
+http://localhost:8000/login
+http://localhost:8000/register
+
